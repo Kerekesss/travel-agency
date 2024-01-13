@@ -1,0 +1,57 @@
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}
+.hero {
+  background: url("/public/images/img-home.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .hero h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 25px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 350px;
+  }
+
+  .hero .btn {
+    width: 100%;
+  }
+}
