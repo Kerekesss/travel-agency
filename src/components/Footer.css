@@ -117,6 +117,7 @@
 @media screen and (max-width: 750px) {
   .footer-container {
     max-width: 500px;
+    text-align: center;
   }
 
   .footer-inputs {
@@ -131,7 +132,6 @@
   .footer-links {
     margin-top: 5rem;
     width: 310px;
-    margin-right: 80px;
   }
 
   .footer-links-wrapper {
